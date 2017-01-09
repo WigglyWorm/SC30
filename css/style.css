@@ -1,3 +1,9 @@
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -9,17 +15,20 @@ body {
 .sub-header {
 	background: black;
 	width: 100%;
-	height: 20px;
-	padding: 2.5px;
+	height: 25px;
+	padding: 15px;
 	padding-top: 5px;
 	border: 0;
-	position: fixed;
+	/*position: fixed;*/
 }
 
 .sub-header p {
+	font-size: 14px;
 	color: white;
 	text-align: center;
 	display: inline;
+	letter-spacing: 0.1em;
+	margin-left: 168px;
 }
 
 
@@ -36,25 +45,31 @@ body {
 .logo {
 	float: left;
 	margin-top: 10px;
-	margin-right: 2%;
+	margin-right: 10%;
+	position: relative;
+	bottom: 18px;
+	padding: 10px;
+	margin-bottom: 40px;
 }
 
 nav {
 	background-color: ;
 	width: 100%;
 	border: 1px;
+	margin-bottom: 30px;
 }
 
 nav ul {
 	padding-top: 50px;
 	display: inline-block;
-	margin-right: 150px;
+	margin-left: -334px;
 }
 
 nav li {
 	display: inline-block;
 	text-align: center;
-	margin-right: 50px;
+	margin-right: 40px;
+	margin-left: 25px;
 	letter-spacing: 0.4em;
 }
 
@@ -63,68 +78,45 @@ nav li a {
 	text-decoration: none;
 }
 
-.slider-holder
-        {
-            width: 100%;
-            height: 400px;
-            background-color: black;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 0px;
-            text-align: center;
-            overflow: hidden;
-        }
-        
-        .image-holder
-        {
-            width: 100%;
-            background-color: black;
-            height: 400px;
-            clear: both;
-            position: relative;
-            
-            -webkit-transition: left 2s;
-            -moz-transition: left 2s;
-            -o-transition: left 2s;
-            transition: left 2s;
-        }
-        
-        .slider-image
-        {
-            float: left;
-            margin: 0px;
-            padding: 0px;
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
-        
-        #slider-image-1:target ~ .image-holder
-        {
-            left: 0px;
-        }
-        
-        #slider-image-2:target ~ .image-holder
-        {
-            left: -800px;
-        }
-        
-        #slider-image-3:target ~ .image-holder
-        {
-            left: -1600px;
-        }
-        
-        .button-holder
-        {
-            position: absolute;
-            top: -20px;
-        }
-        
-        .slider-change
-        {
-            display: inline-block;
-            height: 10px;
-            width: 10px;
-            border-radius: 5px;
-            background-color: brown;
-        }
+#custom-search-form {
+        margin:0;
+        margin-top: -36px;
+        padding-right: 10px;
+        display: block;
+
+}
+ 
+#custom-search-form .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+	margin-bottom: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+ 
+#custom-search-form button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/*CAROUSEL*/
+#myCarousel {
+	position: absolute;
+}
+
+
+

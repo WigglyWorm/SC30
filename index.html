@@ -3,114 +3,394 @@
 <head>
 	<title>Stephen Curry Apparel</title>
 
+<!-- GOOGLE FONTS -->
 <link href="https://fonts.googleapis.com/css?family=Cuprum|Oswald:300,400,700" rel="stylesheet">
 
-<link rel="shortcut icon" href="imgs/logo_favicon.png">
+<!-- FAVICON -->
+<link rel="shortcut icon" href="imgs/logo.jpg">
 
+<!-- BOOTSTRAP -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+<!-- FONT AWESOME -->
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<!-- JAVASCRIPT -->
+<script type="text/javascript" src="js/grid.js"></script>
+
+<!-- CSS STYLESHEET -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
 <body>
-		<div class="container">
-			<!-- SUB HEADER -->
-			<div class="sub-header">
-				<p> Free Shipping over $50 </p>
-			<div id="sub-header-right">
+<!--HEADER -->
+	<div class="container">
+		<div class="header">
+			<p> Free Shipping over $50 </p>
+			<div class="header-right">
 				<i class="fa fa-user-plus" aria-hidden="true"> Login </i>
 				<i class="fa fa-shopping-bag" aria-hidden="true"> Shopping Bag </i>
 			</div>
-			</div> 
-			<div class="header">
-			<div class="row">
-				<div class="col-md-12">  
-				<div class="header-left">	
-				<!-- LOGO -->
-						<div class="logo">
-							<a href="index.html"><img src="imgs/logo.jpg" alt=""/></a>
-						</div>
-				<!-- Toggle menu -->
-						<!-- <div class="menu">
-							<a class="toggleMenu" href="#"><img src="">
-							</div> -->
+		</div> 
+	</div>
 
-				<!-- NAV BAR -->
-				<nav>
+	<!-- NAVIGATION -->
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img alt="Brand" src="imgs/logo.jpg"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SALE <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">YOUTH</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">APPAREL <span class="caret"></span></a>
+         <ul class="dropdown-menu">
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">YOUTH</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCESSORIES <span class="caret"></span></a>
+         <ul class="dropdown-menu">
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">YOUTH</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FOOTWEAR <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">YOUTH</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+         	<button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i><i class="icon-search"></i>
+			</button>
+        </div>
+      </form>
+   	 </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- ***************************************************** -->
+<!-- NAV BAR -->
+	<!-- <div class="container">	
+	<div class="row">
+			<div class="col-md-12">  
+				<nav>		
 					<ul>
 						<li><a href="footwear.html">F00TWEAR</a></li>
-						 <li><a href="apparel.html">APPAREL</a></li>
-						  <li><a href="accessories.html">ACCESSORIES</a></li>
-						  <li><a href="sale.html">SALE</a></li>
-						  <li><a href="gallery.html">GALLERY</a></li>
-												
-							<div class="clear"></div>
-							</ul>	
-
-
-					<div class="span12">
-						   <form id="custom-search-form" class="form-search form-horizontal pull-right">
-						       <div class="input-append span12">
-						           <input type="text" class="search-query" placeholder="Search">
-						          <button type="submit" class="btn"><i class="icon-search"></i></button>
-						      </div>
-						   </form>
-					  </div>
-				</nav>	
-<!-- 				<hr>
+						<li><a href="apparel.html">APPAREL</a></li>
+						<li><a href="accessories.html">ACCESSORIES</a></li>
+						<li><a href="sale.html">SALE</a></li>
+						<li><a href="gallery.html">GALLERY</a></li>
+													
+						<div class="clear"></div>
+					</ul>
+					<!- LOGO -->
+					<!-- <div class="logo">
+						<a href="index.html"><img src="imgs/logo.jpg" alt=""/></a>
+					</div> -->
+<!-- SEARCH -->
+					<!-- <div class="span12">
+						 <form id="custom-search-form" class="form-search form-horizontal pull-right">
+						 <div class="input-append span12">
+						    <input type="text" class="search-query" placeholder="Search">
+						      <button type="submit" class="btn">
+						     	<i class="fa fa-search" aria-hidden="true"></i><i class="icon-search"></i>
+						     	</button>
+						    </div>
+						 	</form>
+					 	</div>
+					</nav>  
  -->
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
+		<!-- ************************************************** -->
+		<!-- CAROUSEL -->
+    			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+					</ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="imgs/curry-one.jpg" alt="Curry1">
+						  <!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="imgs/curry-one.jpg" alt="Curry1">
+						</div>
+
+						<div class="item">
+							<img src="imgs/curry-clothing.jpg" alt="Curry3">
+						</div>
+					</div>
+
+		  <!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						 <span class="sr-only">Next</span>
+					 </a>   
+				</div>
+<!-- FEATURED CONTENT -->
+				<h1>FEATURED</h1>	
+				<hr>
+				<div class="row">
+				  <div class="col-sm-6 col-md-4">
+				    <div class="thumbnail">
+				      <img src="..." alt="...">
+				      <div class="caption">
+				        <h3>Thumbnail label</h3>
+				        <p>...</p>
+				        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col-sm-6 col-md-4">
+				    <div class="thumbnail">
+				      <img src="..." alt="...">
+				      <div class="caption">
+				        <h3>Thumbnail label</h3>
+				        <p>...</p>
+				        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col-sm-6 col-md-4">
+				    <div class="thumbnail">
+				      <img src="..." alt="...">
+				      <div class="caption">
+				        <h3>Thumbnail label</h3>
+				        <p>...</p>
+				        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-sm-6 col-md-4">
+				    <div class="thumbnail">
+				      <img src="..." alt="...">
+				      <div class="caption">
+				        <h3>Thumbnail label</h3>
+				        <p>...</p>
+				        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col-sm-6 col-md-4">
+				    <div class="thumbnail">
+				      <img src="..." alt="...">
+				      <div class="caption">
+				        <h3>Thumbnail label</h3>
+				        <p>...</p>
+				        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col-sm-6 col-md-4">
+				    <div class="thumbnail">
+				      <img src="..." alt="...">
+				      <div class="caption">
+				        <h3>Thumbnail label</h3>
+				        <p>...</p>
+				        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+<!-- GRID CONTENT -->
+				<!-- RIGHT GRID -->
+				<div class="content">
+					<div class="ban-bottom">
+						<div class="container">
+							<div class="col-md-6 ban-bottom">
+								<div class="ban-top">
+									<img src="imgs/curry-collection1.jpg" class="img-responsive" alt>
+									<div class="ban-text">
+										<h4>Apparel</h4>	
+									</div>
+									<div class="ban-text2">
+										<h4>$50</h4>
+									</div>	
+								</div>		
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<!-- LEFT GRID -->
+				<div class="col-md-6 ban-bottom3">
+					<div class="ban-top">
+						<img src="imgs/curry-classics.jpg" class="img-responsive" alt>
+						<div class="ban-text1">
+							<h4>Shoes</h4>	
+						</div>
+					</div>
+					<div class="ban-img">
+						<div class="ban-bottom1">
+							<div class="ban-top">
+								<img src="imgs/curry-collection2.jpg" class="img-responsive" alt>
+								
+							</div>
+
+							
+						</div>
+						
+					</div>
+				</div>
+				<!-- <div class="grid">
+				  <div class="grid-sizer"></div>
+				  <div class="grid-item grid-item--width2"></div>
+				  <div class="grid-item grid-item--height2"></div>
+				  <div class="grid-item"></div>
+				  <div class="grid-item"></div>
+				  <div class="grid-item grid-item--width2 grid-item--height2"></div>
+				  <div class="grid-item grid-item--width2"></div>
+				  <div class="grid-item grid-item--width2"></div>
+				  <div class="grid-item grid-item--height2"></div>
+				  <div class="grid-item"></div>
+				  <div class="grid-item grid-item--width2"></div>
+				  <div class="grid-item grid-item--height2"></div>
+				  <div class="grid-item"></div>
+				  <div class="grid-item"></div>
+				</div> -->
+<!-- JUMBOTRON -->
+               <div class="jumbotron" style="background-image: url(imgs/stephen_curry.jpg);">
+               	<div class="container">
+               		<h1>Sign up, Get 15% Off</h1>
+               		<!-- <img src="imgs/stephen_curry.jpg"> -->
+ 						 <p>...</p>
+ 					 <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+				</div>
+               </div>
+  
+<!-- FOOTER -->
+
+				<footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                        <li> <a href="#"> Lorem Ipsum </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                    <h3> Lorem Ipsum </h3>
+                    <ul>
+                    <li>
+                            <div class="input-append newsletter-box text-center">
+                                <input type="text" class="full text-center" placeholder="Email ">
+                                <button class="btn  bg-gray" type="button"> Lorem ipsum <i class="fa fa-long-arrow-right"> </i> </button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="social">
+                        <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.row--> 
+        </div>
+        <!--/.container--> 
     </div>
+    <!--/.footer-->
+     <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left"> Copyright © Footer 2014. All right reserved. </p>
+            <div class="pull-right">
+                <ul class="nav nav-pills payments">
+                    <li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul> 
+            </div>
+        </div>
+		<!-- JQUERY  -->
+				<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
-    <!-- <div class="item">
-      <img src="imgs/curry-one.jpg" alt="Curry2">
-    </div> -->
-
-    <div class="item">
-      <img src="imgs/curry-clothing.jpg" alt="Curry3">
-    </div>
-
-    <!-- <div class="item">
-      <img src="imgs/curry-ad.jpg" alt="Curry4">
-    </div> -->
-  </div>
-
-  <!-- Left and right controls -->
-	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>   
-	 </div>
-
-<!-- JQUERY  -->
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-<!-- BOOTSTRAP JAVASCRIPT  -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-</div>
-</div>
-
+	<!-- BOOTSTRAP JAVASCRIPT  -->
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- 
+			</div>
+		</div>
+	</div> -->
 </body>
 </html>

@@ -1,122 +1,190 @@
-.container {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	border: 0;
+html {
+  overflow-y: scroll; 
 }
 body {
+	background-color: black;
+	color: #F38A03;
+	font-family: 'Cuprum', sans-serif;
+	letter-spacing: 0.1em;
+
+}
+
+/*HEADER*/
+
+.container {
+	width: 100%;
+	height: 50px;
 	margin: 0;
 	padding: 0;
-	text-align: center;
-	font-family: 'Cuprum', sans-serif;
-	font-weight: 700;
-
-}
-.sub-header {
-	background: black;
-	width: 100%;
-	height: 25px;
-	padding: 15px;
-	padding-top: 5px;
 	border: 0;
-	/*position: fixed;*/
-}
-
-.sub-header p {
-	font-size: 14px;
-	color: white;
+	margin-bottom: 25px;
+	padding: 0;
 	text-align: center;
+	font-weight: 700;
+}
+	
+}
+.header {
 	display: inline;
-	letter-spacing: 0.1em;
-	margin-left: 168px;
 }
 
-
-#sub-header-right {
-	float: right;
+.header p {
+	margin-top: 55px;
+	font-size: 18px;
 	color: white;
-	padding-right: 50px;
 }
 
-#sub-header-right i {
-	margin-right: 10px;
-}
-
-.logo {
-	float: left;
-	margin-top: 10px;
-	margin-right: 10%;
+.header-icons {
+	float: right;
+	margin-right: 24px;
 	position: relative;
-	bottom: 18px;
+	bottom: 20px;
+}
+
+.header-icons i {
 	padding: 10px;
-	margin-bottom: 40px;
+	color: white;
 }
 
-nav {
-	background-color: ;
-	width: 100%;
-	border: 1px;
-	margin-bottom: 30px;
+/*NAVBAR*/
+
+.navbar-inverse {
+	top: 12px;
 }
 
-nav ul {
-	padding-top: 50px;
-	display: inline-block;
-	margin-left: -334px;
+.navbar-brand img {
+	position: relative;
+	float: left;
+	margin-right: 60px;
+	bottom: 5px;    
 }
 
-nav li {
-	display: inline-block;
+.navbar-nav {
+	margin-top: 20px;
+	letter-spacing: 0.2em;
+	margin-right: 200px;
+	font-size: 15px;
+}
+
+.navbar-left {
+	margin-top: -38px;
+	position: relative;
+	margin-left: 60px;
+}
+
+.form-group {
+	margin-top: 26px;
+	margin-left: 186px;
+}
+
+.dropdown-toggle {
+	float: right;
+}
+
+.btn {
+	background-color: rgb(91, 90, 91);
+}
+
+/*FEATURED */
+
+h1 {
 	text-align: center;
-	margin-right: 40px;
-	margin-left: 25px;
-	letter-spacing: 0.4em;
 }
 
-nav li a {
-	color: black;
-	text-decoration: none;
-}
-
-#custom-search-form {
-        margin:0;
-        margin-top: -36px;
-        padding-right: 10px;
-        display: block;
-
-}
- 
-#custom-search-form .search-query {
-    padding-right: 3px;
-    padding-right: 4px \9;
-    padding-left: 3px;
-    padding-left: 4px \9;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-	margin-bottom: 0;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
- 
-#custom-search-form button {
+hr {
+    height: 12px;
     border: 0;
-    background: none;
-    /** belows styles are working good */
-    padding: 2px 5px;
-    margin-top: 2px;
-    position: relative;
-    left: -28px;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    box-shadow: inset 0 12px 12px -12px #181515;
 }
 
-/*CAROUSEL*/
-#myCarousel {
+/*GRID CONTENT*/
+.ban-bottom {
+	padding: 2em 0;
+	bottom: 28px;
+}
+.content div {
+	display: block;
+	background-color:;
+	left: 2%;
+}
+
+.ban-top {
+	position: relative;
+	overflow: hidden;
+	left: 1%;
+}
+.ban-top img {
+	transition: all; 1s;
+	width: 95%;
+}
+
+.ban-top2 img {
+	left: 13px;
+	position: relative;
+	width: 95%;
+	height: 221px;
+	bottom: 60px;
+}
+
+.ban-text {
+	position: relative;
+	top: 50%;
+	left: 25%;
+	padding: 1em;
+}
+.ban-text h4  {
+	font-size: 4em;
+	padding: 0 0;
+	margin: 0 0;
+	position: relative;
+	bottom: 205px;
+	left: -29px;
+	background-color: rgba(24, 21, 21, 0.75);
+}
+.ban-text1 h4 {
+	font-size: 5em;
+	padding: 0 0;
+	margin: 0 0;
+	position: relative;
+	bottom: 237px;
+	left: -29px;
+	background-color: rgba(24, 21, 21, 0.75);
+}
+
+/*.ban-text2 {
 	position: absolute;
+	top: 14%;
+	left: 45%;
+	padding: 1.5em;
+/*	border-radius: 60px;
+	/*text-align: center;
+	width: 18%;*/
+/*	background-color: rgba(24, 21, 21, 0.75);
+*/
+/*}*/
+
+.ban-img {
+	margin-top: 2.1em;
+}
+.ban-bottom1  {
+	float: left;
+	width: 48%;
+	margin-right: 2%; 
+}
+.ban-bottom2  {
+	float: left;
+	width: 48%;
+	margin-right: 2%; 
+}
+.ban-bottom3 {
+	float: right;
 }
 
+.jumbotron {
+	background-size: 100%; 
+	position: relative;
+}
 
-
+.footer {
+	position: relative;
+}

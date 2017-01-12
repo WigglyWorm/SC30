@@ -26,18 +26,19 @@
 <body>
 <!--HEADER -->
 	<div class="container">
+		<a class="navbar-brand" href="#"><img alt="Brand" src="imgs/logo2.jpg"></a>
 		<div class="header">
 			<p> Free Shipping over $50 </p>
-			<div class="header-right">
-				<i class="fa fa-user-plus" aria-hidden="true"> Login </i>
-				<i class="fa fa-shopping-bag" aria-hidden="true"> Shopping Bag </i>
-			</div>
-		</div> 
+		</div>
 	</div>
+    <div class="header-icons"> 
+    	<i class="fa fa-user-plus" aria-hidden="true"> Login</i>
+		<i class="fa fa-shopping-bag" aria-hidden="true"> Checkout </i>
+    </div>
 
 	<!-- NAVIGATION -->
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -47,7 +48,6 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img alt="Brand" src="imgs/logo.jpg"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -104,44 +104,10 @@
         </div>
       </form>
    	 </li>
-      </ul>
+    </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
-<!-- ***************************************************** -->
-<!-- NAV BAR -->
-	<!-- <div class="container">	
-	<div class="row">
-			<div class="col-md-12">  
-				<nav>		
-					<ul>
-						<li><a href="footwear.html">F00TWEAR</a></li>
-						<li><a href="apparel.html">APPAREL</a></li>
-						<li><a href="accessories.html">ACCESSORIES</a></li>
-						<li><a href="sale.html">SALE</a></li>
-						<li><a href="gallery.html">GALLERY</a></li>
-													
-						<div class="clear"></div>
-					</ul>
-					<!- LOGO -->
-					<!-- <div class="logo">
-						<a href="index.html"><img src="imgs/logo.jpg" alt=""/></a>
-					</div> -->
-<!-- SEARCH -->
-					<!-- <div class="span12">
-						 <form id="custom-search-form" class="form-search form-horizontal pull-right">
-						 <div class="input-append span12">
-						    <input type="text" class="search-query" placeholder="Search">
-						      <button type="submit" class="btn">
-						     	<i class="fa fa-search" aria-hidden="true"></i><i class="icon-search"></i>
-						     	</button>
-						    </div>
-						 	</form>
-					 	</div>
-					</nav>  
- -->
-		<!-- ************************************************** -->
 		<!-- CAROUSEL -->
     			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
@@ -172,7 +138,7 @@
 					 </a>   
 				</div>
 <!-- FEATURED CONTENT -->
-				<h1>FEATURED</h1>	
+				<h1 class="head">FEATURED</h1>	
 				<hr>
 				<div class="row">
 				  <div class="col-sm-6 col-md-4">
@@ -247,67 +213,64 @@
 							<div class="col-md-6 ban-bottom">
 								<div class="ban-top">
 									<img src="imgs/curry-collection1.jpg" class="img-responsive" alt>
-									<div class="ban-text">
-										<h4>Apparel</h4>	
+									<div class="ban-text1">
+										<h4>Training</h4>	
 									</div>
-									<div class="ban-text2">
-										<h4>$50</h4>
-									</div>	
-								</div>		
+								</div>	
+								<div class="ban-top2">
+									<img src="imgs/splash-brother.jpg" class="img-responsive" alt>
+									<div class="ban-text">
+										<h4>T-Shirts</h4>	
+									</div>
+				
+								</div>					
 							</div>
 							
-						</div>
-					</div>
-				</div>
 				<!-- LEFT GRID -->
 				<div class="col-md-6 ban-bottom3">
 					<div class="ban-top">
-						<img src="imgs/curry-classics.jpg" class="img-responsive" alt>
-						<div class="ban-text1">
-							<h4>Shoes</h4>	
+						<img src="imgs/steph-jersey .jpg" class="img-responsive" alt>
+						<div class="ban-text">
+							<h4>Jerseys</h4>	
 						</div>
 					</div>
+					<!-- LEFT GRID BOTTOM -->
 					<div class="ban-img">
 						<div class="ban-bottom1">
 							<div class="ban-top">
 								<img src="imgs/curry-collection2.jpg" class="img-responsive" alt>
-								
-							</div>
-
-							
+								<div class="ban-text">
+                                  <h4>Clothing</h4>
+								</div>
+							</div>				
 						</div>
-						
+						<div class="ban-bottom2">
+							<div class="ban-top">
+								<img src="imgs/curry-classics.jpg" class="img-responsive" alt>
+								<div class="ban-text">
+									<h4>Shoes</h4>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
 					</div>
 				</div>
-				<!-- <div class="grid">
-				  <div class="grid-sizer"></div>
-				  <div class="grid-item grid-item--width2"></div>
-				  <div class="grid-item grid-item--height2"></div>
-				  <div class="grid-item"></div>
-				  <div class="grid-item"></div>
-				  <div class="grid-item grid-item--width2 grid-item--height2"></div>
-				  <div class="grid-item grid-item--width2"></div>
-				  <div class="grid-item grid-item--width2"></div>
-				  <div class="grid-item grid-item--height2"></div>
-				  <div class="grid-item"></div>
-				  <div class="grid-item grid-item--width2"></div>
-				  <div class="grid-item grid-item--height2"></div>
-				  <div class="grid-item"></div>
-				  <div class="grid-item"></div>
-				</div> -->
+			</div>
+		</div>
+	</div>
+				
 <!-- JUMBOTRON -->
-               <div class="jumbotron" style="background-image: url(imgs/stephen_curry.jpg);">
+               <!-- <div class="jumbotron" style="background-image: url(imgs/stephen_curry.jpg);">
                	<div class="container">
                		<h1>Sign up, Get 15% Off</h1>
-               		<!-- <img src="imgs/stephen_curry.jpg"> -->
+               		<img src="imgs/stephen_curry.jpg"> 
  						 <p>...</p>
  					 <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
 				</div>
-               </div>
-  
-<!-- FOOTER -->
+               </div> 
+<!- FOOTER -->
 
-				<footer>
+				<!-- <footer>
     <div class="footer" id="footer">
         <div class="container">
             <div class="row">
@@ -366,12 +329,12 @@
                     </ul>
                 </div>
             </div>
-            <!--/.row--> 
-        </div>
+            <!-/.row--> 
+       <!--  </div> -->
         <!--/.container--> 
-    </div>
-    <!--/.footer-->
-     <div class="footer-bottom">
+   <!--  </div> -->
+    <!--/.footer bottom-->
+     <!-- <div class="footer-bottom">
         <div class="container">
             <p class="pull-left"> Copyright © Footer 2014. All right reserved. </p>
             <div class="pull-right">
@@ -383,14 +346,13 @@
                 </ul> 
             </div>
         </div>
+        </div>
+        </footer> --> 
 		<!-- JQUERY  -->
 				<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
 	<!-- BOOTSTRAP JAVASCRIPT  -->
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- 
-			</div>
-		</div>
-	</div> -->
-</body>
+
+ </body>
 </html>

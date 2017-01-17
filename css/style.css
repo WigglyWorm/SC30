@@ -11,7 +11,7 @@ body {
 
 /*HEADER*/
 
-#container {
+/*#container {
 	width: 100%;
 	height: 50px;
 	margin: 0;
@@ -32,24 +32,15 @@ body {
 	margin-top: 55px;
 	font-size: 18px;
 	color: white;
-}
+}*/
 
-.header-icons {
-	float: right;
-	margin-right: 24px;
-	position: relative;
-	bottom: 37px;
-}
-
-.header-icons i {
-	padding: 10px;
-	color: white;
-}
 
 /*NAVBAR*/
 
 .navbar-inverse {
 	top: 12px;
+	background: black;
+	color: ;
 }
 
 .navbar-brand img {
@@ -58,6 +49,19 @@ body {
 	margin-right: 60px;
 	bottom: 5px;    
 }
+
+.header-icons {
+	float: right;
+	left: 902px;
+	position: relative;
+	bottom: -37px;
+}
+
+.header-icons i {
+	padding: 5px;
+	color: white;
+}
+
 
 .navbar-nav {
 	margin-top: 1%;
@@ -69,7 +73,8 @@ body {
 .navbar-left {
 	margin-top: -44px;
 	position: relative;
-	margin-left: 60px;
+	left: 699px;
+	bottom: 26px;
 }
 
 .form-group {
@@ -82,7 +87,17 @@ body {
 }
 
 .btn {
-	background-color: rgb(91, 90, 91);
+	background-color: #54697e;
+	background: none;
+	padding: 12px 22px;
+	border: 2px solid #0099cc;
+	color: #0099cc;
+	/*border-color: #323f4b;*/
+}
+.btn:hover .btn:focus .btn:active {
+	color: #33a6cc;
+	border-color: #33a6cc;
+	box-shadow: none;
 }
 
 /*FEATURED */
@@ -106,23 +121,28 @@ h1 {
 	padding: 0;
 	margin: 0;
 	height: 0px;
+	position: relative;
 }
 
 .jumbotron .container p {
-	font-size: 4em;
-	margin-left: 633px;
+	font-size: 6em;
+	margin-left: 727px;
 	margin-bottom: 0;
 	position: relative;
-	bottom: 310px;
-
+	bottom: 565px;
 }
-#new-arrivals {
-	position: relative;
-	padding-top: 30px;
-	margin-bottom: 30px; 
+
+#sign-up {
+	width: 97%;
 }
 
 /*GRID CONTENT*/
+#new-arrivals {
+	position: relative;
+	padding-top: 300px;
+	margin-bottom: 30px; 
+}
+
 .ban-bottom {
 	padding: 2em 0;
 	bottom: 28px;
@@ -187,7 +207,7 @@ h1 {
 }
 
 div .ban-img {
-	margin-top: -103px;
+	margin-top: -77px;
 }
 .ban-bottom3 .ban-top img.img-responsive {
 	margin-top: 46px;
@@ -217,8 +237,18 @@ div.col-md-6.ban-bottom3 {
 	bottom: 45px;
 }
 
+/*AD*/
 #youth {
 	margin-bottom: 30px;
+}
+.ad-youth .btn-default {
+	right: 384px;
+	position: relative;
+	background-color: #F38A03;
+	bottom: 145px;
+	width: 141px;
+	padding: 12px 22px;
+	border: 2px solid ;
 }
 /*FOOTER*/
 
@@ -363,6 +393,7 @@ div.col-md-6.ban-bottom3 {
 }
 .footer-bottom {
 	background: #323232;
+	color: #768797;
 	border-top: 1px solid #DDDDDD;
 	padding-top: 10px;
 	padding-bottom: 10px;

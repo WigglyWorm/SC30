@@ -40,7 +40,7 @@ body {
 .navbar-inverse {
 	top: 12px;
 	background: black;
-	color: ;
+	height: 0;
 }
 
 .navbar-brand img {
@@ -82,22 +82,28 @@ body {
 	margin-left: 186px;
 }
 
+.form-group .btn {
+	padding: 6px 13px;
+}
+
 .dropdown-toggle {
 	float: right;
 }
 
 .btn {
-	background-color: #54697e;
+	background-color: transparent;
 	background: none;
 	padding: 12px 22px;
 	border: 2px solid #0099cc;
 	color: #0099cc;
-	/*border-color: #323f4b;*/
+
 }
+
 .btn:hover .btn:focus .btn:active {
 	color: #33a6cc;
 	border-color: #33a6cc;
 	box-shadow: none;
+	cursor: pointer;
 }
 
 /*FEATURED */
@@ -129,28 +135,42 @@ h1 {
 	margin-left: 727px;
 	margin-bottom: 0;
 	position: relative;
-	bottom: 565px;
+	bottom: 539px;
+	color: #0099cc;
 }
 
 #sign-up {
 	width: 97%;
 }
 
+.container .btn-primary {
+	bottom: 502px;
+    margin-right: 117px;
+    position: relative;
+    float: right;
+    color: white;
+    border-color: white;
+    padding: 24px 24px;
+    font-size: 2em;
+}
+
+.container .btn-primary:hover .btn-primary:focus .btn-primary:active {
+	background-color: black;
+}
+
 /*GRID CONTENT*/
 #new-arrivals {
 	position: relative;
-	padding-top: 300px;
-	margin-bottom: 30px; 
 }
 
 .ban-bottom {
 	padding: 2em 0;
-	bottom: 28px;
+	bottom: 204px;
 	left: 15px;
 }
 
 .content {
-	margin-top: 200px;
+	margin-top: 358px;
 	display: block;
 	left: 0.5%;
 	bottom: -225px;
@@ -207,10 +227,14 @@ h1 {
 }
 
 div .ban-img {
-	margin-top: -77px;
+	margin-top: -64px;
+}
+
+.ban-bottom3 .ban-top {
+	bottom: -42px;
 }
 .ban-bottom3 .ban-top img.img-responsive {
-	margin-top: 46px;
+	margin-top: 13px;
 }
 
 .ban-bottom1  {
@@ -234,21 +258,23 @@ div.col-md-6.ban-bottom3 div.ban-top4 img {
 }
 
 div.col-md-6.ban-bottom3 {
-	bottom: 45px;
+	bottom: 299px;
 }
 
 /*AD*/
 #youth {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
+	margin-top: -140px;
 }
 .ad-youth .btn-default {
 	right: 384px;
 	position: relative;
 	background-color: #F38A03;
-	bottom: 145px;
+	bottom: 120px;
 	width: 141px;
 	padding: 12px 22px;
-	border: 2px solid ;
+	border: 2px solid black;
+	color: white;
 }
 /*FOOTER*/
 
